@@ -1,5 +1,5 @@
-apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/refsuniversal/scripts/both/getbuildnumber.gradle', to: project
-apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/refsuniversal/scripts/forge/builtbroken.gradle'
-apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/refsuniversal/index/index-both.gradle'
-apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/refsuniversal/scripts/forge/sbm/deps-sbm.gradle'
-apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/refsuniversal/scripts/forge/maven.gradle'
+apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/universal/scripts/both/getbuildnumber.gradle', to: project
+apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/universal/scripts/forge/builtbroken.gradle'
+apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/universal/index/index-both.gradle'
+apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/universal/scripts/forge/sbm/deps-sbm.gradle'
+apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/universal/scripts/forge/maven.gradle'
