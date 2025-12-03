@@ -36,7 +36,6 @@ if (project.hasProperty("coremod"))
                "Created-By": project.CurrentJVM,
                "Implementation-Title": archivesBaseName,
                "Implementation-Version": version,
-               "Git-Hash": ext.GitHash,
                "FMLCorePlugin": coremod,
                "FMLCorePluginContainsFMLMod": "true")
     }
@@ -47,8 +46,7 @@ else
     attributes("Built-By": System.getProperty('user.name'),
                "Created-By": project.CurrentJVM,
                "Implementation-Title": archivesBaseName,
-               "Implementation-Version": version,
-               "Git-Hash": ext.GitHash)
+               "Implementation-Version": version)
     }
 }
 
