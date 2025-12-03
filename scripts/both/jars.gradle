@@ -14,7 +14,7 @@ apply plugin: "org.ajoberstar.grgit"
 if (!project.hasProperty("bambooshortPlanName"))
     ext.bambooshortPlanName = ""
 
-apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/universal/scripts/both/printdeps.gradle'
+apply from: 'https://raw.githubusercontent.com/EarthQuestMc/BuiltBrokenScripts/refsuniversal/scripts/both/printdeps.gradle'
 
 javadoc {
     source = sourceSets.main.allJava
