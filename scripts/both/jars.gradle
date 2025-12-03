@@ -5,11 +5,8 @@ buildscript {
     }
   }
   dependencies {
-    classpath "org.ajoberstar:grgit:2.1.0"
   }
 }
-
-apply plugin: "org.ajoberstar.grgit"
 
 if (!project.hasProperty("bambooshortPlanName"))
     ext.bambooshortPlanName = ""
